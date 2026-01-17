@@ -2,7 +2,7 @@
 
 An intelligent outfit recommendation system that generates complete outfit combinations from a single base product, considering style compatibility, color harmony, occasion appropriateness, seasonal relevance, and budget constraints.
 
-## 🎯 Project Overview
+## Project Overview
 
 This system simulates how a fashion stylist thinks by analyzing multiple factors to create cohesive outfit combinations. Given a single product (e.g., a shirt), the system generates complete outfits including:
 
@@ -15,7 +15,7 @@ The system is optimized for **sub-1-second response times** through intelligent 
 
 ---
 
-## 🏗️ Architecture Explanation
+## Architecture Explanation
 
 ### System Components
 
@@ -57,7 +57,7 @@ The system is optimized for **sub-1-second response times** through intelligent 
 
 ---
 
-## 🧠 Recommendation Logic
+## Recommendation Logic
 
 ### Outfit Generation Process
 
@@ -134,7 +134,7 @@ Based on the percentage of items that match the target:
 
 ---
 
-## ⚡ Performance Strategy
+## Performance Strategy
 
 ### Achieving <1 Second Response Time
 
@@ -188,7 +188,7 @@ For production at scale, consider:
 
 ---
 
-## 🤖 AI Usage
+### AI Usage
 
 ### Current Implementation
 
@@ -216,7 +216,7 @@ For production, consider:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -390,7 +390,7 @@ for outfit in outfits:
 
 ---
 
-## 📊 Assumptions & Trade-offs
+## Assumptions & Trade-offs
 
 ### Assumptions
 
@@ -443,7 +443,7 @@ for outfit in outfits:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 culture-circle/
@@ -462,7 +462,7 @@ culture-circle/
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing
 
@@ -485,7 +485,7 @@ time curl -X POST "http://localhost:8000/recommendations" \
 
 ---
 
-## 📝 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -498,7 +498,7 @@ time curl -X POST "http://localhost:8000/recommendations" \
 
 ---
 
-## 🎓 Key Learnings & Design Decisions
+## Key Learnings & Design Decisions
 
 1. **Performance First**: Every design decision prioritized sub-1s response time
 2. **Caching Strategy**: Cache at the recommendation level, not individual components
@@ -508,19 +508,7 @@ time curl -X POST "http://localhost:8000/recommendations" \
 
 ---
 
-## 📄 License
 
-This project is created for evaluation purposes.
-
----
-
-## 👤 Author
-
-Built as part of a technical assessment for an AI-powered fashion recommendation system.
-
----
-
-## 🙏 Acknowledgments
 
 - Color harmony algorithms based on traditional color theory
 - FastAPI for the excellent async framework
